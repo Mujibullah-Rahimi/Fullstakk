@@ -1,0 +1,130 @@
+
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+header{
+    max-width: 1000px;
+}
+
+nav{
+    height: 40px;
+    box-shadow: 0 10px 10px #c2cecc;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.logo{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.user{
+    display: inline-block;
+    margin-top: 10px;
+    color: grey;
+    position:absolute;
+    right: 10px;
+}
+
+main{
+    max-width: 800px;
+    align-items: center;
+}
+
+section, article {
+  margin: 0;
+  padding: 0;
+}
+
+.form{
+    position: relative;
+}
+#title{
+    width: 50%;
+    min-height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 5px 0px 20px 0px;
+    display: block;
+}
+#title:hover{
+    border-color: #5ad2c1;
+}
+#textArea:hover{
+    border-color: #5ad2c1;
+}
+
+#textArea{
+    width: 100%;
+    margin: 5px 0px 20px 0px;
+    display: block;
+    resize: none;
+    border-radius: 5px;
+}
+
+#addButton{
+    color: #fff;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #5ad2c1;
+    position: absolute;
+    right: 0%;
+}
+
+.myTodos{
+    margin-top: 15%;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 30px;
+}
+
+.item {
+    height: 150px;
+    width: 245px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 10px 10px #5ad2c22a;
+}
+
+.itemText{
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+#completeButton{
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 5px;
+    border: none;
+    background-color: #5ad2c1;
+    width: 100px;
+    height: 20px;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+
+.todoTitle{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.itemText{
+    color: lightslategray;
+    margin: 15px;
+}
