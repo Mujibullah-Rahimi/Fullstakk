@@ -109,7 +109,6 @@ const orderBtnHandler = () => {
 nameInputEventListener();
 
 // DELOPPGAVE 8
-//children, color
 const colorBtnEventListener =() =>{
     const colorBtn = document.getElementById("color");
     colorBtn.addEventListener("click", changeLiElements);
